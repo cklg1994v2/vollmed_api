@@ -8,6 +8,7 @@ public record DadosAtualizacaoPaciente(
         String nome,
         String email,
         String telefone,
-        @Valid DadosEndereco endereco
+        @Valid DadosEndereco endereco,
+        Boolean ativo
 ) {
 }
